@@ -1,0 +1,23 @@
+{
+  "user_default": {
+    "TCS": {
+      "symbol": "TCS",
+      "name": "Tata Consultancy Services Ltd.",
+      "quantity": 20,
+      "avg_price": 3450.0,
+      "current_price": 3480.0
+    },
+    "INFY": {
+      "symbol": "INFY",
+      "name": "Infosys Ltd.",
+      "quantity": 5,
+      "avg_price": 1500.0,
+      "current_price": 1650.0
+    },
+    "RELIANCE": {
+      "symbol": "RELIANCE",
+      "quantity": 1,
+      "avg_price": 1428.42
+    }
+  }
+}

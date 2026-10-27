@@ -1,0 +1,10 @@
+{
+  "usr_78912": {
+    "_id": "usr_78912",
+    "name": "Arjun Mehta",
+    "email": "arjun.mehta@stocksense.ai",
+    "password_hash": "pbkdf2:sha256:100000$e9b2512f38c351c27ad66b445982e0fb$4f669db6e568eb5ce5e6f6a7d5cb1ea25712c98ffad4dbb5b9c06497f66a2e4e",
+    "balance": 1000000.0,
+    "created_at": "2026-10-06T12:00:00"
+  }
+}

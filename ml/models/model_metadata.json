@@ -1,0 +1,40 @@
+{
+  "trained_at": "2026-10-06T19:11:38.992583",
+  "target": "Tomorrow_Close > Close -> 1 (UP), else 0 (DOWN)",
+  "features": [
+    "RSI",
+    "MACD",
+    "SMA20",
+    "SMA50",
+    "EMA",
+    "Volume",
+    "Volatility"
+  ],
+  "train_size": 1516,
+  "val_size": 262,
+  "test_size": 260,
+  "validation_scores": {
+    "logistic_regression": {
+      "accuracy": 54.2,
+      "precision": 53.78,
+      "recall": 88.32,
+      "f1_score": 66.85,
+      "roc_auc": 0.4607
+    },
+    "random_forest": {
+      "accuracy": 50.76,
+      "precision": 53.77,
+      "recall": 41.61,
+      "f1_score": 46.91,
+      "roc_auc": 0.5256
+    },
+    "xgboost": {
+      "accuracy": 48.85,
+      "precision": 51.33,
+      "recall": 42.34,
+      "f1_score": 46.4,
+      "roc_auc": 0.5172
+    }
+  },
+  "champion_model": "xgboost"
+}

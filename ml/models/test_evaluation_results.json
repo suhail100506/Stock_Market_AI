@@ -1,0 +1,53 @@
+{
+  "model_name": "XGBoost",
+  "model_type": "Gradient Boosted Decision Trees",
+  "badge": "Champion Production Model",
+  "evaluated_at": "2026-10-11T22:54:56.380999",
+  "test_partition": {
+    "period": "2025 Out-of-Sample",
+    "start_date": "2025-01-01 00:00:00",
+    "end_date": "2025-12-30 00:00:00",
+    "total_sessions": 260,
+    "up_sessions": 135,
+    "down_sessions": 125,
+    "up_pct": 51.9,
+    "down_pct": 48.1
+  },
+  "directional_performance": {
+    "directional_accuracy": 53.5,
+    "precision": 60.9,
+    "recall": 28.9,
+    "f1_score": 39.2,
+    "roc_auc": 0.554,
+    "confusion_matrix": {
+      "true_positives": 39,
+      "false_positives": 25,
+      "true_negatives": 100,
+      "false_negatives": 96
+    }
+  },
+  "price_prediction_performance": {
+    "mae": 3787.62,
+    "rmse": 3876.06,
+    "mape": 23.63,
+    "unit": "INR (\u20b9)"
+  },
+  "backtest_performance": {
+    "strategy_cumulative_return_pct": 21.14,
+    "buy_and_hold_return_pct": 7.27,
+    "outperformance_pct": 13.87,
+    "win_rate_pct": 53.5,
+    "max_drawdown_pct": -6.61,
+    "annualized_sharpe": 1.65,
+    "total_sessions": 260
+  },
+  "feature_importances": {
+    "RSI": 0.1568,
+    "SMA50": 0.1478,
+    "EMA": 0.1467,
+    "Volatility": 0.1406,
+    "Volume": 0.1397,
+    "SMA20": 0.1369,
+    "MACD": 0.1314
+  }
+}
